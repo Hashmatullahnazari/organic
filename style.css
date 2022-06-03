@@ -70,37 +70,35 @@ color: black;
 
 .section2
 {
-width: 100%;
-height: 100vh;
+    width: 100%;
 background: green;
 padding: 64px;
 
 }
 
-div.gallery {
-border: 1px solid #ccc;
-margin: 15px;
-}
-
-div.gallery:hover {
-border: 1px solid #777;
-}
-
-div.gallery img {
-width: 100%;
-height: 300px;
-
+.section2 .row {
+margin: 8px -16px;
 }
 
 
-
-.res {
-padding: 0 6px;
-float: left;
-width: 33.33%;
+.section2 .column  {
+  float: left;
+  width: 33.33%;
+  
 }
 
-.section2, .container::after, .row::after {
+.section2 .row,
+ .row > .column {
+  padding: 20px;
+}
+
+.section2 .row .column img{
+
+  height: 300px;
+}
+
+
+.section2, .row::after, .column::after {
 content: "";
 clear: both;
 display: table;
@@ -228,7 +226,7 @@ display: block;
 
 
 @media screen and (max-width: 750px) {
-.section1 .topleft{
+.section1 .topleft {
 text-align: center;
 position: absolute;
 top: 50%;
@@ -248,26 +246,26 @@ padding: 20px;
 
 
 
-@media screen and (max-width: 630px) {
-.section2 .column {
-width: 100%;
-display: inline-block;
-float: none;
-}
 
-}
+
 
 @media only screen and (max-width: 800px) {
-.section2 .res {
-width: 50%;
-margin: 6px 0;
+.section2 .column  {
+   width: 50%;
+ margin: 6px 0;
+
+  }
+    
+    .section2 .row,
+ .row > .column {
+  padding: 8px;
 }
 }
 
 @media only screen and (max-width: 500px) {
-.section2 .res {
-width: 100%;
-}
+.section2 .column{
+    width: 100%;
+  }
 }
 
 
