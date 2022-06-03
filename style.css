@@ -58,7 +58,7 @@ position: absolute;
 top: 50%;
 left: 80%;
 transform: translate(-50%, -50%);
-color: #70933b;
+color: #040c0a;
 }
 
 .section1 .topleft .btn{
@@ -71,7 +71,7 @@ color: black;
 .section2
 {
     width: 100%;
-background: green;
+background: #e8f3dc;
 padding: 64px;
 
 }
@@ -240,6 +240,10 @@ width: 100%;
 .section1 .topleft
 {
 padding: 20px;
+   
+font-size: 30px;
+color: #648c28;
+
 }
 }
 
