@@ -349,16 +349,66 @@ color: #648c28;
 
 
 /* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1200px) {
   .section4 .column {
     width: 50%;
+      
+      
   }
+    
+
+
+.section4 .column p{
+    margin-top: 20px;
+    margin-bottom: 0;
+    font-size: 1.5rem;
+}
+
+.section4 .column p{
+margin-top: 30px;
+    margin-bottom: 0;
+}
+.section4 .column a{
+margin-top: 30px;
+    margin-bottom: 0;
+    border-bottom: 1px solid red;
+   text-decoration: none;
+    
+    font-size:20px;
+}
+.section4 .column img {
+   height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-position: 50% 50%;
+    margin: 0 auto;
+    
+}
+
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.section4 .content {
+  background-color: #c3d036 ;
+  padding: 30px;
+    text-align: center;
+      
+       
+    
+}
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .section4.column {
+@media screen and (max-width: 1000px) {
+  .section4 .column {
     width: 100%;
+      
   }
 }
 
