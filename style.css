@@ -154,35 +154,47 @@ img {
 
 .section4
 {
-    padding: 64px;
-     max-width: 1100px;
+    background:#fbd5a6;
+    padding: 180px;
+     max-width: 100%;
   margin: auto;
     
 }
 
-.section4 .row {
-  margin: 8px -16px;
-}
-
-/* Add padding BETWEEN each column */
-.section4 .row,
-.row > .column {
-  padding: 8px;
-}
 
 
 
 .section4 .column {
   float: left;
-  width: 30%;
+  width: 33.33%;
     
 }
 
+.section4 .column p{
+    margin-top: 20px;
+    margin-bottom: 0;
+    font-size: 1.5rem;
+}
+
+.section4 .column p{
+margin-top: 30px;
+    margin-bottom: 0;
+}
+.section4 .column a{
+margin-top: 30px;
+    margin-bottom: 0;
+    border-bottom: 1px solid red;
+   text-decoration: none;
+    
+    font-size:20px;
+}
 .section4 .column img {
-   height: 260px;
+   height: 200px;
+    width: 200px;
+    border-radius: 50%;
     background-position: 50% 50%;
     margin: 0 auto;
-    border-radius: 50%;
+    
 }
 
 
@@ -195,9 +207,11 @@ img {
 
 /* Content */
 .section4 .content {
-  background-color: white;
-  padding: 10px;
-    text-align: center
+  background-color: #c3d036 ;
+  padding: 30px;
+    text-align: center;
+      
+       
     
 }
 
