@@ -375,8 +375,8 @@ margin-top: 30px;
     font-size:20px;
 }
 .section4 .column img {
-   height: 200px;
-    width: 200px;
+   
+
     border-radius: 50%;
     background-position: 50% 50%;
     margin: 0 auto;
@@ -393,23 +393,61 @@ margin-top: 30px;
 
 /* Content */
 .section4 .content {
-  background-color: #c3d036 ;
-  padding: 30px;
+    background-color: #c3d036;
+    /* padding: 29px; */
+    /* padding-top: 39px; */
+    height: 600px;
+    padding: 20px;
+    /* margin-top: 20px; */
     text-align: center;
-      
-       
-    
 }
+    
+    
+    
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 700px) {
   .section4 .column {
-    width: 100%;
-      padding: 50px;
       
+    width: 100%;
+    text-align: center;
+  }
+  img {
+    margin: auto;
+  }
+  }
+    
+/* Create two equal columns that floats next to each other */
+
+
+.section5 {
+width: 100%;
+    padding: 64px;
+    background: pink;
+}
+.section5 .column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+ 
+}
+
+/* Clear floats after the columns */
+.section5 .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .section5 .column {
+    width: 100%;
   }
 }
+    
+
 
 
 
