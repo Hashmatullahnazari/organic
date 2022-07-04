@@ -154,8 +154,16 @@ img {
 
 .section4
 {
-    background:#fbd5a6;
+    
     padding: 14px;
+    max-width: 1400px;
+    margin: auto;
+}
+
+ .bg
+{
+    background:#fbd5a6;
+   max-width: 100%;
 }
 
 
